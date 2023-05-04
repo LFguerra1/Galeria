@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Arte</title>
+    <style>
+        table {
+          width: 100%;
+          table-layout: fixed;
+          border-collapse: collapse;
+        }
+        
+        td {
+          text-align: center;
+          width: 25%;
+          line-height: 9;
+          padding: 10px;
+        }
+        .titulo{
+            text-align: center;
+        }
+        .container {
+			display: flex;
+			align-items: flex-start;
+			background-color: white;
+			padding: 20px;
+		}
+		.texto {
+			flex: 1;
+			margin-right: 20px;
+		}
+		.imagem {
+			flex: 1;
+			text-align: right;
+		}
+        </style>
+</head>
+<body style="background-color: green;">
+    <header>
+        <h1 class="titulo">Bem vindo a Galeria de Arte</h1>
+        <h2 class="titulo">Escolha uma Arte</h2>
+    </header>
+    <main>
+        <nav>
+            <table style="background-color: white;">
+            <tr>
+              <td><a href="#Mona Lisa">Mona Lisa</a></td>
+              <td><a href="#A Noite Estrelada">A Noite Estrelada</a></td>
+              <td><a href="#A Persistência da Memória">A Persistência da Memória</a></td>
+            </tr>
+            <tr>
+              <td><a href="#As Meninas">As Meninas</a></td>
+              <td><a href="#O Grito">O Grito</a></td>
+              <td><a href="#A Ronda Noturna">A Ronda Noturna</a></td>
+            </tr>
+            <tr>
+              <td><a href="#O Balanço">O Balanço</a></td>
+              <td><a href="#A Última Ceia">A Última Ceia</a></td>
+              <td><a href="#American Gothic">American Gothic</a></td>
+            </tr>
+          </table>
+        </nav><br><br><br>
+        <map name="Mona Lisa">
+          <area shape="rect" coords="0,0,200,298" target="_blank" href="https://pt.wikipedia.org/wiki/Mona_Lisa" title="Retrato Mona Lisa">
+        </map>
+        <div class="container" id="Mona Lisa">
+          <div class="texto">
+            <h1>Mona Lisa</h1>
+            <p>Mona Lisa ("Senhora Lisa") também conhecida como A Gioconda (em italiano: La Gioconda, "a sorridente"; em francês, La Joconde) ou ainda Mona Lisa del Giocondo ("Senhora Lisa esposa de Giocondo") é a mais notável e conhecida obra de Leonardo da Vinci, um dos mais eminentes homens do Renascimento italiano.</p>
+          </div>
+          <div class="imagem">
+            <img usemap="#Mona Lisa" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" alt="Retrato Mona Lisa"></a>
+          </div>
+        </div><br><br><br>
+        <map name="A Noite Estrelada">
+          <area shape="rect" coords="0,0,300,238" target="_blank" href="https://pt.wikipedia.org/wiki/A_Noite_Estrelada" title="Retrato A Noite Estrelada">
+        </map>
+        <div class="container" id="A Noite Estrelada">
+          <div class="texto">
+            <h1>A Noite Estrelada</h1>
+            <p>A Noite Estrelada é uma pintura de Vincent van Gogh de 1889. A obra retrata a vista da janela de um quarto do hospício de Saint-Rémy-de-Provence, pouco antes do nascer do sol, com a adição de um vilarejo idealizado pelo artista. A tela faz parte da coleção permanente do Museu de Arte Moderna de Nova Iorque desde 1941. É considerada uma das mais famosas pinturas de Van Gogh e uma das mais icônicas da arte ocidental.</p>
+          </div>
+          <div class="imagem">
+            <img usemap="#A Noite Estrelada" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/300px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="Retrato A Noite Estrelada">
+          </div>
+        </div><br><br><br>
+        <map name="A Persistência da Memória">
+          <area shape="rect" coords="0,0,300,221" target="_blank" href="https://pt.wikipedia.org/wiki/A_Persist%C3%AAncia_da_Mem%C3%B3ria" title="Retrato A Persistência da Memória">
+        </map>
+        <div class="container" id="A Persistência da Memória">
+          <div class="texto">
+            <h1>A Persistência da Memória</h1>
+            <p>A Persistência da Memória (em castelhano: La persistencia de la memoria; em catalão: La persistència de la memòria) é uma pintura do artista surrealista Salvador Dalí de 1931. A pintura está localizada na coleção do Museu de Arte Moderna (MoMA) de Nova Iorque desde 1934. É amplamente reconhecida e frequentemente referenciada na cultura popular.</p>
+          </div>
+          <div class="imagem">
+            <img usemap="#A Persistência da Memória" src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/59/A_Persist%C3%AAncia_da_Mem%C3%B3ria.jpg/300px-A_Persist%C3%AAncia_da_Mem%C3%B3ria.jpg" alt="Retrato A Persistência da Memória">
+          </div>
+        </div><br><br><br>
+        <map name="As Meninas">
+          <area shape="rect" coords="0,0,360,414" target="_blank" href="https://pt.wikipedia.org/wiki/As_Meninas_(Vel%C3%A1zquez)" title="Retrato As meninas"> 
+        </map>
+        <div class="container" id="As Meninas">
+          <div class="texto">
+            <h1>As Meninas</h1>
+            <p>As Meninas é uma pintura de 1656 por Diego Velázquez, o principal artista do Século de Ouro Espanhol. Ela está hoje em dia no Museu do Prado em Madrid. A composição enigmática e complexa da obra levanta questões sobre realidade e ilusão, criando uma relação incerta entre o observador e as figuras representadas. Por essas complexidades, As Meninas é uma das obras mais analisadas da pintura ocidental.</p> 
+          </div>
+          <div class="imagem">
+            <img usemap="#As Meninas" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/360px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg" alt="Retrato As meninas">
+          </div>
+        </div><br><br><br>
+        <map name="O Grito">
+          <area shape="rect" coords="0,0,250,316" target="_blank" href="https://pt.wikipedia.org/wiki/O_Grito" title="Retrato O Grito"> 
+        </map>
+        <div class="container" id="O Grito">
+          <div class="texto">
+            <h1>O Grito</h1>
+            <p>O Grito (em norueguês: Skrik) é uma série de quatro pinturas do norueguês Edvard Munch, 1893. A obra representa uma figura andrógina num momento de profunda angústia e desespero. O plano de fundo é a doca do fiorde de Oslo (em Oslo) ao pôr do sol. O Grito é considerado uma das obras mais importantes do movimento expressionista e adquiriu um estatuto de ícone cultural, a par da Mona Lisa de Leonardo da Vinci.</p> 
+          </div>
+          <div class="imagem">
+            <img usemap="#O Grito" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg/250px-Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg" alt="Retrato O Grito">
+          </div>
+        </div><br><br><br>
+        <map name="A Ronda Noturna">
+          <area shape="rect" coords="0,0,310,252" target="_blank" href="https://pt.wikipedia.org/wiki/A_Ronda_Noturna" title="Retrato A Ronda Noturna"> 
+        </map>
+        <div class="container" id="A Ronda Noturna">
+          <div class="texto">
+            <h1>A Ronda Noturna</h1>
+            <p>A Ronda Noturna ou A Ronda da Noite (em neerlandês: De Nachtwacht) é uma pintura a óleo sobre tela do pintor neerlandês Rembrandt, pintada entre 1639 e 1642. A pintura mede 363 cm de altura e 437 cm de largura e mostra a Guarda Cívica de Amsterdã sob comando do capitão Frans Banning Cocq. Geralmente considerada como a magnum opus de Rembrandt, A Ronda Noturna é uma das pinturas mais conhecidas do Barroco. A peça é de propriedade do município de Amsterdã e faz parte da exposição permanente do Rijksmuseum, principal museu especializado em pintura neerlandesa.</p> 
+          </div>
+          <div class="imagem">
+            <img usemap="#A Ronda Noturna" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/310px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg" alt="Retrato A Ronda Noturna">
+          </div>
+        </div><br><br><br>
+        <map name="O Balanço">
+          <area shape="rect" coords="0,0,300,377" target="_blank" href="https://pt.wikipedia.org/wiki/O_Balan%C3%A7o" title="Retrato O Balanço"> 
+        </map>
+        <div class="container" id="O Balanço">
+          <div class="texto">
+            <h1>O Balanço</h1>
+            <p>O Baloiço (em francês: L'Escarpolette; 1766), também conhecido por Os Acidentes Felizes do Baloiço (em francês: Les Hasards Heureux de l'Escarpolette; título original), é uma pintura do século XVIII a óleo sobre tela do pintor francês Jean-Honoré Fragonard. Encontra-se exposta no museu Coleção Wallace, em Londres. É considerada uma das obras-primas do rococó, e trata-se da pintura mais conhecida de Fragonard.</p> 
+          </div>
+          <div class="imagem">
+            <img usemap="#O Balanço" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fragonard%2C_The_Swing.jpg/300px-Fragonard%2C_The_Swing.jpg" alt="Retrato O Balanço">
+          </div>
+        </div><br><br><br>
+        <map name="A Última Ceia">
+          <area shape="rect" coords="0,0,300,156" target="_blank" href="https://pt.wikipedia.org/wiki/A_%C3%9Altima_Ceia_(Leonardo_da_Vinci)" title="Retrato A Última Ceia"> 
+        </map>
+        <div class="container" id="A Última Ceia">
+          <div class="texto">
+            <h1>A Última Ceia</h1>
+            <p>A Última Ceia (em italiano: L'Ultima Cena e também Il Cenacolo) é um afresco de Leonardo da Vinci para a igreja de Santa Maria delle Grazie em Milão, Itália. O trabalho presume-se que tenha sido iniciado por volta de 1495-96 e foi encomendado como parte de um plano de reformas na igreja e nos seus edifícios conventuais pelo patrono de Leonardo, Ludovico Sforza, duque de Milão. Representa o episódio bíblico da Última Ceia de Jesus com os Apóstolos antes de ser preso e crucificado. É um dos bens culturais mais conhecidos e estimados do mundo.</p> 
+          </div>
+          <div class="imagem">
+            <img usemap="#A Última Ceia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/300px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg" alt="Retrato A Última Ceia">
+          </div>
+        </div><br><br><br>
+        <map name="American Gothic">
+          <area shape="rect" coords="0,0,250,300" target="_blank" href="https://pt.wikipedia.org/wiki/American_Gothic" title="Retrato American Gothic"> 
+        </map>
+        <div class="container" id="American Gothic">
+          <div class="texto">
+            <h1>American Gothic</h1>
+            <p>American Gothic ou Gótico Americano é uma pintura de Grant Wood da coleção do Art Institute of Chicago. A inspiração de Wood veio de uma casa desenhada em estilo gótico rural com uma distinta janela superior e uma decisão de pintar junto a casa com "o tipo de pessoa que eu imaginava viver naquela casa." A pintura mostra um fazendeiro ao lado de sua filha. A mulher está vestida com um avental em estilo colonial americano e o homem segura uma forquilha.</p> 
+          </div>
+          <div class="imagem">
+            <img usemap="#American Gothic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Grant_DeVolson_Wood_-_American_Gothic.jpg/250px-Grant_DeVolson_Wood_-_American_Gothic.jpg" alt="Retrato American Gothic">
+          </div>
+        </div>
+    </main>
+    <footer>
+      <h1 class="titulo">Agradecemos a sua Visita</h1>
+    </footer>
+</body>
+</html>
